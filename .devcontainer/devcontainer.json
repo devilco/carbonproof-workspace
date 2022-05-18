@@ -1,3 +1,15 @@
 {
-    "postCreateCommand": "bash clone-repos.sh"
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "devilco/carbonproof-api": {
+          "permissions": "write-all"
+        },
+        "devilco/carbonproof-web": {
+          "permissions": "write-all"
+        }
+      }
+    }
+  },
+  "postCreateCommand": "bash clone-repos.sh"
 }
