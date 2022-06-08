@@ -2,6 +2,12 @@
   "customizations": {
     "codespaces": {
       "repositories": {
+        "dw96kim/carbonproof-web": {
+          "permissions": "write-all"
+        },
+        "dw96kim/carbonproof-api": {
+          "permissions": "write-all"
+        },
         "devilco/carbonproof-api": {
           "permissions": "write-all"
         },
