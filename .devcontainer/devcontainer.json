@@ -13,6 +13,9 @@
         },
         "devilco/carbonproof-web": {
           "permissions": "write-all"
+        },
+        "Bottlecraft/bottlecraft-web": {
+          "permissions": "write-all"
         }
       }
     }
